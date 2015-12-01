@@ -1,0 +1,18 @@
+G:\18.06.2015\AQC\AQC\AQC\bin\Release\AQCManager.sdf
+G:\18.06.2015\AQC\AQC\AQC\bin\Release\AQC Manager.exe.config
+G:\18.06.2015\AQC\AQC\AQC\bin\Release\AQC Manager.exe.manifest
+G:\18.06.2015\AQC\AQC\AQC\bin\Release\AQC Manager.application
+G:\18.06.2015\AQC\AQC\AQC\bin\Release\AQC Manager.exe
+G:\18.06.2015\AQC\AQC\AQC\bin\Release\AQC Manager.pdb
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC_Manager.AboutSoftware.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC_Manager.addEmployee.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC_Manager.mainWindow.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC_Manager.listEmployee.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC_Manager.Properties.Resources.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC_Manager.splash.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC.csproj.GenerateResource.Cache
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC Manager.TrustInfo.xml
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC Manager.exe.manifest
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC Manager.application
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC Manager.exe
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Release\AQC Manager.pdb

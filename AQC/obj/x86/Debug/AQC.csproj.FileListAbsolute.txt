@@ -1,0 +1,99 @@
+E:\imranDeveloper\AQC\AQC\AQC\bin\Debug\AQC.exe
+E:\imranDeveloper\AQC\AQC\AQC\bin\Debug\AQC.pdb
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.Properties.Resources.resources
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC.csproj.GenerateResource.Cache
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC.exe
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC.pdb
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC.csprojResolveAssemblyReference.cache
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.mainWindow.resources
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.splash.resources
+E:\imranDeveloper\AQC\AQC\AQC\bin\Debug\AQCManager.sdf
+E:\imranDeveloper\AQC\AQC\AQC\bin\Debug\AQC.exe.config
+E:\imranDeveloper\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.listEmployee.resources
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQC.exe.config
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC.exe
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC.pdb
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQCManager.sdf
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQC.exe
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQC.pdb
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.mainWindow.resources
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.listEmployee.resources
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.Properties.Resources.resources
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.splash.resources
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\iMughal\Desktop\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQC.exe.config
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC.exe
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC.pdb
+G:\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQCManager.sdf
+G:\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQC.exe
+G:\Untitled Folder\AQC\AQC\AQC\bin\Debug\AQC.pdb
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC.csprojResolveAssemblyReference.cache
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.mainWindow.resources
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.listEmployee.resources
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.Properties.Resources.resources
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.splash.resources
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC.csproj.GenerateResource.Cache
+G:\Untitled Folder\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.addEmployee.resources
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\bin\Debug\AQC.exe.config
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.exe
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.pdb
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\bin\Debug\AQCManager.sdf
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\bin\Debug\AQC.exe
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\bin\Debug\AQC.pdb
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.addEmployee.resources
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.mainWindow.resources
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.listEmployee.resources
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.Properties.Resources.resources
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.splash.resources
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\iMughal\Desktop\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\14.06.2015\AQC\AQC\AQC\bin\Debug\AQC.exe.config
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.exe
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.pdb
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.csprojResolveAssemblyReference.cache
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.addEmployee.resources
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.mainWindow.resources
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.listEmployee.resources
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.Properties.Resources.resources
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.splash.resources
+G:\14.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.csproj.GenerateResource.Cache
+G:\14.06.2015\AQC\AQC\AQC\bin\Debug\AQCManager.sdf
+G:\14.06.2015\AQC\AQC\AQC\bin\Debug\AQC.exe
+G:\14.06.2015\AQC\AQC\AQC\bin\Debug\AQC.pdb
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC.exe.config
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.exe
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.pdb
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\bin\Debug\AQCManager.sdf
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC.exe
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC.pdb
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.addEmployee.resources
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.mainWindow.resources
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.listEmployee.resources
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.Properties.Resources.resources
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.splash.resources
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\iMughal\Desktop\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Donga.AboutSoftware.resources
+G:\18.06.2015\AQC\AQC\AQC\bin\Debug\AQCManager.sdf
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.csprojResolveAssemblyReference.cache
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC.csproj.GenerateResource.Cache
+G:\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC Manager.exe.config
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Manager.Properties.Resources.resources
+G:\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC Manager.exe.manifest
+G:\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC Manager.application
+G:\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC Manager.exe
+G:\18.06.2015\AQC\AQC\AQC\bin\Debug\AQC Manager.pdb
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Manager.AboutSoftware.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Manager.addEmployee.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Manager.mainWindow.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Manager.listEmployee.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC_Manager.splash.resources
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.TrustInfo.xml
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.exe.manifest
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.application
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.exe
+G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.pdb
