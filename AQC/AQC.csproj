@@ -70,9 +70,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -92,15 +90,6 @@
     </Compile>
     <Compile Include="addEmployee.Designer.cs">
       <DependentUpon>addEmployee.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AQCManagerDataSet.cs">
-      <DependentUpon>AQCManagerDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="AQCManagerDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AQCManagerDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -148,17 +137,6 @@
       <DependentUpon>splash.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="AQCManagerDataSet.xsc">
-      <DependentUpon>AQCManagerDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="AQCManagerDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AQCManagerDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="AQCManagerDataSet.xss">
-      <DependentUpon>AQCManagerDataSet.xsd</DependentUpon>
-    </None>
     <None Include="AQC_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -178,9 +156,6 @@
     <None Include="Resources\header1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AQCManager.sdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Resources\1432580807_free-17.png" />
     <None Include="Resources\xxxxx1.jpg" />
     <None Include="Resources\xdddxxxx1.gif" />
@@ -219,16 +194,6 @@
   </ItemGroup>
   <ItemGroup>
     <PublishFile Include="AQC Manager.pdb">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>File</FileType>
-    </PublishFile>
-    <PublishFile Include="AQCManager.sdf">
       <Visible>False</Visible>
       <Group>
       </Group>

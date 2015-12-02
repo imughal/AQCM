@@ -37,10 +37,7 @@
             System.Windows.Forms.Label cityLabel;
             System.Windows.Forms.Label countryLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addEmployee));
-            this.aQCManagerDataSet = new AQC_Manager.AQCManagerDataSet();
             this.employeesInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.employeesInfoTableAdapter = new AQC_Manager.AQCManagerDataSetTableAdapters.EmployeesInfoTableAdapter();
-            this.tableAdapterManager = new AQC_Manager.AQCManagerDataSetTableAdapters.TableAdapterManager();
             this.employeesInfoBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -73,7 +70,6 @@
             dOBLabel = new System.Windows.Forms.Label();
             cityLabel = new System.Windows.Forms.Label();
             countryLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.aQCManagerDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingNavigator)).BeginInit();
             this.employeesInfoBindingNavigator.SuspendLayout();
@@ -145,23 +141,19 @@
             // 
             // aQCManagerDataSet
             // 
-            this.aQCManagerDataSet.DataSetName = "AQCManagerDataSet";
-            this.aQCManagerDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+
             // 
             // employeesInfoBindingSource
             // 
             this.employeesInfoBindingSource.DataMember = "EmployeesInfo";
-            this.employeesInfoBindingSource.DataSource = this.aQCManagerDataSet;
+
             // 
             // employeesInfoTableAdapter
             // 
-            this.employeesInfoTableAdapter.ClearBeforeFill = true;
+
             // 
             // tableAdapterManager
             // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.EmployeesInfoTableAdapter = this.employeesInfoTableAdapter;
-            this.tableAdapterManager.UpdateOrder = AQC_Manager.AQCManagerDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // employeesInfoBindingNavigator
             // 
@@ -424,7 +416,6 @@
             this.Name = "addEmployee";
             this.Text = "addEmployee";
             this.Load += new System.EventHandler(this.addEmployee_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.aQCManagerDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingNavigator)).EndInit();
             this.employeesInfoBindingNavigator.ResumeLayout(false);
@@ -437,10 +428,7 @@
 
         #endregion
 
-        private AQCManagerDataSet aQCManagerDataSet;
         private System.Windows.Forms.BindingSource employeesInfoBindingSource;
-        private AQCManagerDataSetTableAdapters.EmployeesInfoTableAdapter employeesInfoTableAdapter;
-        private AQCManagerDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.BindingNavigator employeesInfoBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;

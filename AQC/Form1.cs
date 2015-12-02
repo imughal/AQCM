@@ -32,7 +32,6 @@ namespace AQC_Manager
         private void mainWindow_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'aQCManagerDataSet.EmployeesInfo' table. You can move, or remove it, as needed.
-            this.employeesInfoTableAdapter.Fill(this.aQCManagerDataSet.EmployeesInfo);
 
         }
 
@@ -68,8 +67,6 @@ namespace AQC_Manager
             {
                 try
                 {
-
-                    this.employeesInfoTableAdapter.Fill(this.aQCManagerDataSet.EmployeesInfo);
                    // MessageBox.Show("UPDATED");
                 }
                 catch (Exception ex)
@@ -86,21 +83,9 @@ namespace AQC_Manager
             MessageBox.Show(Path.GetDirectoryName(Application.ExecutablePath));
         }
 
-        private void employeesInfoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.employeesInfoBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.aQCManagerDataSet);
 
-        }
 
-        private void employeesInfoBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.employeesInfoBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.aQCManagerDataSet);
 
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -189,7 +174,7 @@ namespace AQC_Manager
             {
                 this.Validate();
                 this.employeesInfoBindingSource.EndEdit();
-                this.tableAdapterManager.UpdateAll(this.aQCManagerDataSet);
+       
 
                 firstNameTextBox.ReadOnly = true;
                 lastNameTextBox.ReadOnly = true;
@@ -212,7 +197,7 @@ namespace AQC_Manager
             OpenFileDialog OpenDialogBu = new OpenFileDialog();
             if (OpenDialogBu.ShowDialog() == DialogResult.OK)
             {
-                string subPath = Path.GetDirectoryName(Application.ExecutablePath) + "images/" + bindingNavigatorPositionItem.Text;
+                /*string subPath = Path.GetDirectoryName(Application.ExecutablePath) + "images/" + bindingNavigatorPositionItem.Text;
 
                 bool exists = System.IO.Directory.Exists(subPath);
                 //MessageBox.Show(subPath);
@@ -223,7 +208,7 @@ namespace AQC_Manager
                 System.IO.File.Copy(OpenDialogBu.FileName, newDestination, true);
                 imageTextBox.Text = (newDestination);
                 employeePic.ImageLocation = imageTextBox.Text;//Do what you want here
-               
+              */ 
             } 
         }
 
@@ -233,10 +218,7 @@ namespace AQC_Manager
             if (dialogResult == DialogResult.Yes)
             {
                 //do something
-                employeesInfoBindingSource.RemoveCurrent();
-                this.Validate();
-                this.employeesInfoBindingSource.EndEdit();
-                this.tableAdapterManager.UpdateAll(this.aQCManagerDataSet);
+
             }
 
             

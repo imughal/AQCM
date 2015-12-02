@@ -97,3 +97,21 @@ G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.exe.manifest
 G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.application
 G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.exe
 G:\18.06.2015\AQC\AQC\AQC\obj\x86\Debug\AQC Manager.pdb
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\bin\Debug\AQC Manager.exe.config
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC Manager.exe
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC Manager.pdb
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC_Manager.AboutSoftware.resources
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC_Manager.addEmployee.resources
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC_Manager.mainWindow.resources
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC_Manager.listEmployee.resources
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC_Manager.Properties.Resources.resources
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC_Manager.splash.resources
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC.csproj.GenerateResource.Cache
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\bin\Debug\AQC Manager.exe.manifest
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\bin\Debug\AQC Manager.application
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\bin\Debug\AQC Manager.exe
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\bin\Debug\AQC Manager.pdb
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC Manager.TrustInfo.xml
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC Manager.exe.manifest
+C:\Users\Administrator.WIN-J26J8DB7HDS\Desktop\AQCM\AQC\obj\x86\Debug\AQC Manager.application

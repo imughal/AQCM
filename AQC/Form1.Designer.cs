@@ -48,7 +48,6 @@
             this.empEditSave = new System.Windows.Forms.Button();
             this.countryTextBox = new System.Windows.Forms.TextBox();
             this.employeesInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.aQCManagerDataSet = new AQC_Manager.AQCManagerDataSet();
             this.cityTextBox = new System.Windows.Forms.TextBox();
             this.dOBTextBox = new System.Windows.Forms.TextBox();
             this.fatherNameTextBox = new System.Windows.Forms.TextBox();
@@ -82,8 +81,7 @@
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.employeesInfoBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.employeesInfoTableAdapter = new AQC_Manager.AQCManagerDataSetTableAdapters.EmployeesInfoTableAdapter();
-            this.tableAdapterManager = new AQC_Manager.AQCManagerDataSetTableAdapters.TableAdapterManager();
+
             this.aboutSbtn = new System.Windows.Forms.Button();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
@@ -108,8 +106,8 @@
             this.mainTabCtrl.SuspendLayout();
             this.mainPage.SuspendLayout();
             this.emloyees.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aQCManagerDataSet)).BeginInit();
+ 
+
             this.wps.SuspendLayout();
             this.expiries.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingNavigator)).BeginInit();
@@ -322,13 +320,9 @@
             // 
             // employeesInfoBindingSource
             // 
-            this.employeesInfoBindingSource.DataMember = "EmployeesInfo";
-            this.employeesInfoBindingSource.DataSource = this.aQCManagerDataSet;
             // 
             // aQCManagerDataSet
             // 
-            this.aQCManagerDataSet.DataSetName = "AQCManagerDataSet";
-            this.aQCManagerDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // cityTextBox
             // 
@@ -650,14 +644,10 @@
             // 
             // employeesInfoTableAdapter
             // 
-            this.employeesInfoTableAdapter.ClearBeforeFill = true;
             // 
             // tableAdapterManager
             // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.EmployeesInfoTableAdapter = this.employeesInfoTableAdapter;
-            this.tableAdapterManager.UpdateOrder = AQC_Manager.AQCManagerDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
+           // 
             // aboutSbtn
             // 
             this.aboutSbtn.BackColor = System.Drawing.Color.Transparent;
@@ -735,9 +725,7 @@
             this.employeesInfoBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("employeesInfoBindingNavigatorSaveItem.Image")));
             this.employeesInfoBindingNavigatorSaveItem.Name = "employeesInfoBindingNavigatorSaveItem";
             this.employeesInfoBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
-            this.employeesInfoBindingNavigatorSaveItem.Text = "Save Data";
-            this.employeesInfoBindingNavigatorSaveItem.Click += new System.EventHandler(this.employeesInfoBindingNavigatorSaveItem_Click_1);
-            // 
+            this.employeesInfoBindingNavigatorSaveItem.Text = "Save Data";            // 
             // pictureBox1
             // 
             this.pictureBox1.Enabled = false;
@@ -841,8 +829,6 @@
             this.mainPage.ResumeLayout(false);
             this.emloyees.ResumeLayout(false);
             this.emloyees.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aQCManagerDataSet)).EndInit();
             this.wps.ResumeLayout(false);
             this.expiries.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingNavigator)).EndInit();
@@ -883,10 +869,7 @@
         private System.Windows.Forms.Button btnExpiry;
         private System.Windows.Forms.Button btnEmpAddNew;
         private System.Windows.Forms.Button testing;
-        private AQCManagerDataSet aQCManagerDataSet;
         private System.Windows.Forms.BindingSource employeesInfoBindingSource;
-        private AQCManagerDataSetTableAdapters.EmployeesInfoTableAdapter employeesInfoTableAdapter;
-        private AQCManagerDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.PictureBox employeePic;
         private System.Windows.Forms.Button btn_Next;
         private System.Windows.Forms.Button btn_Prev;

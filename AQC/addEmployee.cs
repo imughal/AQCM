@@ -22,7 +22,7 @@ namespace AQC_Manager
         {
             this.Validate();
             this.employeesInfoBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.aQCManagerDataSet);
+ 
 
         }
 
@@ -30,16 +30,13 @@ namespace AQC_Manager
         {
             
             // TODO: This line of code loads data into the 'aQCManagerDataSet.EmployeesInfo' table. You can move, or remove it, as needed.
-            this.employeesInfoTableAdapter.Fill(this.aQCManagerDataSet.EmployeesInfo);
 
             this.employeesInfoBindingSource.AddNew();
         }
 
         private void btnSaveEmp_Click(object sender, EventArgs e)
         {
-            this.Validate();
-            this.employeesInfoBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.aQCManagerDataSet);
+
             try
             {
                 // your update code goes here

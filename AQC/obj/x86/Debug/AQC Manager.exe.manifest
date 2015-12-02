@@ -42,19 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.1.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AQC Manager.exe" size="1243136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AQC Manager.exe" size="1210880">
       <assemblyIdentity name="AQC Manager" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>VI94tTaEd6iqFwrG6QmDd2MhP4o=</dsig:DigestValue>
+        <dsig:DigestValue>6kIJIGlh1dhD4+Qd06kzGQxCulQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -67,22 +62,13 @@
       <dsig:DigestValue>78/NEedEMnFBW0qpekLQ1/7Kb/o=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="AQC Manager.pdb" size="138752">
+  <file name="AQC Manager.pdb" size="77312">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>XFSrnzhH9ssRpy7++t5vwGZ8t08=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="AQCManager.sdf" size="86016">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>3ZCFuQr1bvFhb23SVfhAiL8yCqI=</dsig:DigestValue>
+      <dsig:DigestValue>jlWtCMLvQ9U9rWHWH+m02i65Bsk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\1432580807_free-17.png" size="5922">

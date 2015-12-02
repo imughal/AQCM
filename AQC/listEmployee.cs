@@ -39,16 +39,13 @@ namespace AQC_Manager
 
         private void employeesInfoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
-            this.Validate();
-            this.employeesInfoBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.aQCManagerDataSet);
+
 
         }
 
         private void newEmployee_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'aQCManagerDataSet.EmployeesInfo' table. You can move, or remove it, as needed.
-            this.employeesInfoTableAdapter.Fill(this.aQCManagerDataSet.EmployeesInfo);
 
         }
     }
