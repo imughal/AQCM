@@ -29,37 +29,25 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label firstNameLabel;
-            System.Windows.Forms.Label lastNameLabel;
-            System.Windows.Forms.Label fatherNameLabel;
-            System.Windows.Forms.Label dOBLabel;
-            System.Windows.Forms.Label cityLabel;
-            System.Windows.Forms.Label countryLabel;
-            System.Windows.Forms.Label iDLabel2;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainWindow));
             this.mainTabCtrl = new System.Windows.Forms.TabControl();
             this.mainPage = new System.Windows.Forms.TabPage();
+            this.aboutSbtn = new System.Windows.Forms.Button();
             this.testing = new System.Windows.Forms.Button();
             this.noticeGroup = new System.Windows.Forms.GroupBox();
+            this.btnCompany = new System.Windows.Forms.Button();
+            this.btnWPS = new System.Windows.Forms.Button();
+            this.btnExpiry = new System.Windows.Forms.Button();
+            this.btnEmloyees = new System.Windows.Forms.Button();
             this.compainy = new System.Windows.Forms.TabPage();
             this.emloyees = new System.Windows.Forms.TabPage();
             this.btnRemoveEmp = new System.Windows.Forms.Button();
-            this.imageBrowserBTN = new System.Windows.Forms.Button();
             this.empEditSave = new System.Windows.Forms.Button();
-            this.countryTextBox = new System.Windows.Forms.TextBox();
             this.employeesInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.cityTextBox = new System.Windows.Forms.TextBox();
-            this.dOBTextBox = new System.Windows.Forms.TextBox();
-            this.fatherNameTextBox = new System.Windows.Forms.TextBox();
-            this.lastNameTextBox = new System.Windows.Forms.TextBox();
-            this.firstNameTextBox = new System.Windows.Forms.TextBox();
-            this.testingLabel = new System.Windows.Forms.Label();
-            this.iDTextBox = new System.Windows.Forms.TextBox();
             this.btn_Next = new System.Windows.Forms.Button();
             this.btn_Prev = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnEmpAddNew = new System.Windows.Forms.Button();
-            this.imageTextBox = new System.Windows.Forms.TextBox();
             this.wps = new System.Windows.Forms.TabPage();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -81,8 +69,6 @@
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.employeesInfoBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-
-            this.aboutSbtn = new System.Windows.Forms.Button();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -91,93 +77,16 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.employeesInfoBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnCompany = new System.Windows.Forms.Button();
-            this.btnWPS = new System.Windows.Forms.Button();
-            this.btnExpiry = new System.Windows.Forms.Button();
-            this.btnEmloyees = new System.Windows.Forms.Button();
-            this.employeePic = new System.Windows.Forms.PictureBox();
-            firstNameLabel = new System.Windows.Forms.Label();
-            lastNameLabel = new System.Windows.Forms.Label();
-            fatherNameLabel = new System.Windows.Forms.Label();
-            dOBLabel = new System.Windows.Forms.Label();
-            cityLabel = new System.Windows.Forms.Label();
-            countryLabel = new System.Windows.Forms.Label();
-            iDLabel2 = new System.Windows.Forms.Label();
             this.mainTabCtrl.SuspendLayout();
             this.mainPage.SuspendLayout();
             this.emloyees.SuspendLayout();
- 
-
+            ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingSource)).BeginInit();
             this.wps.SuspendLayout();
             this.expiries.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingNavigator)).BeginInit();
             this.employeesInfoBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeePic)).BeginInit();
             this.SuspendLayout();
-            // 
-            // firstNameLabel
-            // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Location = new System.Drawing.Point(227, 81);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new System.Drawing.Size(60, 13);
-            firstNameLabel.TabIndex = 5;
-            firstNameLabel.Text = "First Name:";
-            // 
-            // lastNameLabel
-            // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Location = new System.Drawing.Point(227, 104);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new System.Drawing.Size(61, 13);
-            lastNameLabel.TabIndex = 7;
-            lastNameLabel.Text = "Last Name:";
-            // 
-            // fatherNameLabel
-            // 
-            fatherNameLabel.AutoSize = true;
-            fatherNameLabel.Location = new System.Drawing.Point(227, 128);
-            fatherNameLabel.Name = "fatherNameLabel";
-            fatherNameLabel.Size = new System.Drawing.Size(71, 13);
-            fatherNameLabel.TabIndex = 9;
-            fatherNameLabel.Text = "Father Name:";
-            // 
-            // dOBLabel
-            // 
-            dOBLabel.AutoSize = true;
-            dOBLabel.Location = new System.Drawing.Point(227, 186);
-            dOBLabel.Name = "dOBLabel";
-            dOBLabel.Size = new System.Drawing.Size(33, 13);
-            dOBLabel.TabIndex = 11;
-            dOBLabel.Text = "DOB:";
-            // 
-            // cityLabel
-            // 
-            cityLabel.AutoSize = true;
-            cityLabel.Location = new System.Drawing.Point(227, 209);
-            cityLabel.Name = "cityLabel";
-            cityLabel.Size = new System.Drawing.Size(27, 13);
-            cityLabel.TabIndex = 13;
-            cityLabel.Text = "City:";
-            // 
-            // countryLabel
-            // 
-            countryLabel.AutoSize = true;
-            countryLabel.Location = new System.Drawing.Point(227, 232);
-            countryLabel.Name = "countryLabel";
-            countryLabel.Size = new System.Drawing.Size(46, 13);
-            countryLabel.TabIndex = 15;
-            countryLabel.Text = "Country:";
-            // 
-            // iDLabel2
-            // 
-            iDLabel2.AutoSize = true;
-            iDLabel2.Location = new System.Drawing.Point(52, 58);
-            iDLabel2.Name = "iDLabel2";
-            iDLabel2.Size = new System.Drawing.Size(21, 13);
-            iDLabel2.TabIndex = 18;
-            iDLabel2.Text = "ID:";
             // 
             // mainTabCtrl
             // 
@@ -212,6 +121,23 @@
             this.mainPage.Text = "MAIN";
             this.mainPage.UseVisualStyleBackColor = true;
             // 
+            // aboutSbtn
+            // 
+            this.aboutSbtn.BackColor = System.Drawing.Color.Transparent;
+            this.aboutSbtn.BackgroundImage = global::AQC_Manager.Properties.Resources._1434683082_about;
+            this.aboutSbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.aboutSbtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.aboutSbtn.FlatAppearance.BorderSize = 0;
+            this.aboutSbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.aboutSbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.aboutSbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.aboutSbtn.Location = new System.Drawing.Point(3, 368);
+            this.aboutSbtn.Name = "aboutSbtn";
+            this.aboutSbtn.Size = new System.Drawing.Size(29, 24);
+            this.aboutSbtn.TabIndex = 3;
+            this.aboutSbtn.UseVisualStyleBackColor = false;
+            this.aboutSbtn.Click += new System.EventHandler(this.aboutSbtn_Click);
+            // 
             // testing
             // 
             this.testing.Location = new System.Drawing.Point(38, 368);
@@ -233,6 +159,69 @@
             this.noticeGroup.Text = "Notice Board";
             this.buttonInfo.SetToolTip(this.noticeGroup, "\"Latest News, Epiries,Company Informations");
             // 
+            // btnCompany
+            // 
+            this.btnCompany.BackgroundImage = global::AQC_Manager.Properties.Resources._1433180300_factory;
+            this.btnCompany.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCompany.FlatAppearance.BorderSize = 0;
+            this.btnCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompany.Location = new System.Drawing.Point(111, 45);
+            this.btnCompany.Name = "btnCompany";
+            this.btnCompany.Size = new System.Drawing.Size(65, 66);
+            this.btnCompany.TabIndex = 0;
+            this.buttonInfo.SetToolTip(this.btnCompany, "Company Informations");
+            this.btnCompany.UseVisualStyleBackColor = false;
+            this.btnCompany.Click += new System.EventHandler(this.btnCompany_Click);
+            // 
+            // btnWPS
+            // 
+            this.btnWPS.BackgroundImage = global::AQC_Manager.Properties.Resources._1432639004_Salary;
+            this.btnWPS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnWPS.FlatAppearance.BorderSize = 0;
+            this.btnWPS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWPS.Location = new System.Drawing.Point(16, 181);
+            this.btnWPS.Name = "btnWPS";
+            this.btnWPS.Size = new System.Drawing.Size(75, 75);
+            this.btnWPS.TabIndex = 0;
+            this.buttonInfo.SetToolTip(this.btnWPS, "\"WPS\"");
+            this.btnWPS.UseVisualStyleBackColor = true;
+            this.btnWPS.Click += new System.EventHandler(this.btnWPS_Click);
+            // 
+            // btnExpiry
+            // 
+            this.btnExpiry.BackColor = System.Drawing.Color.Transparent;
+            this.btnExpiry.BackgroundImage = global::AQC_Manager.Properties.Resources.config_date;
+            this.btnExpiry.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnExpiry.FlatAppearance.BorderSize = 0;
+            this.btnExpiry.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExpiry.Location = new System.Drawing.Point(191, 36);
+            this.btnExpiry.Name = "btnExpiry";
+            this.btnExpiry.Size = new System.Drawing.Size(75, 75);
+            this.btnExpiry.TabIndex = 0;
+            this.btnExpiry.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExpiry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExpiry.UseMnemonic = false;
+            this.btnExpiry.UseVisualStyleBackColor = true;
+            this.btnExpiry.Click += new System.EventHandler(this.btnExpiry_Click);
+            // 
+            // btnEmloyees
+            // 
+            this.btnEmloyees.BackColor = System.Drawing.Color.Transparent;
+            this.btnEmloyees.BackgroundImage = global::AQC_Manager.Properties.Resources._1432580807_free_17;
+            this.btnEmloyees.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEmloyees.FlatAppearance.BorderSize = 0;
+            this.btnEmloyees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmloyees.Location = new System.Drawing.Point(16, 41);
+            this.btnEmloyees.Name = "btnEmloyees";
+            this.btnEmloyees.Size = new System.Drawing.Size(75, 75);
+            this.btnEmloyees.TabIndex = 0;
+            this.btnEmloyees.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEmloyees.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonInfo.SetToolTip(this.btnEmloyees, "\"View Emplyees Details\"");
+            this.btnEmloyees.UseMnemonic = false;
+            this.btnEmloyees.UseVisualStyleBackColor = true;
+            this.btnEmloyees.Click += new System.EventHandler(this.btnEmloyees_Click);
+            // 
             // compainy
             // 
             this.compainy.Location = new System.Drawing.Point(4, 22);
@@ -246,29 +235,11 @@
             // 
             this.emloyees.AutoScroll = true;
             this.emloyees.Controls.Add(this.btnRemoveEmp);
-            this.emloyees.Controls.Add(this.imageBrowserBTN);
             this.emloyees.Controls.Add(this.empEditSave);
-            this.emloyees.Controls.Add(this.countryTextBox);
-            this.emloyees.Controls.Add(this.cityTextBox);
-            this.emloyees.Controls.Add(this.dOBTextBox);
-            this.emloyees.Controls.Add(this.fatherNameTextBox);
-            this.emloyees.Controls.Add(this.lastNameTextBox);
-            this.emloyees.Controls.Add(this.firstNameTextBox);
-            this.emloyees.Controls.Add(this.testingLabel);
-            this.emloyees.Controls.Add(iDLabel2);
-            this.emloyees.Controls.Add(this.iDTextBox);
             this.emloyees.Controls.Add(this.btn_Next);
             this.emloyees.Controls.Add(this.btn_Prev);
-            this.emloyees.Controls.Add(firstNameLabel);
-            this.emloyees.Controls.Add(lastNameLabel);
-            this.emloyees.Controls.Add(fatherNameLabel);
-            this.emloyees.Controls.Add(dOBLabel);
-            this.emloyees.Controls.Add(cityLabel);
-            this.emloyees.Controls.Add(countryLabel);
             this.emloyees.Controls.Add(this.button3);
             this.emloyees.Controls.Add(this.btnEmpAddNew);
-            this.emloyees.Controls.Add(this.imageTextBox);
-            this.emloyees.Controls.Add(this.employeePic);
             this.emloyees.ImageKey = "(none)";
             this.emloyees.Location = new System.Drawing.Point(4, 22);
             this.emloyees.Name = "emloyees";
@@ -286,18 +257,7 @@
             this.btnRemoveEmp.TabIndex = 35;
             this.btnRemoveEmp.Text = "Delete";
             this.btnRemoveEmp.UseVisualStyleBackColor = true;
-            this.btnRemoveEmp.Click += new System.EventHandler(this.btnRemoveEmp_Click);
-            // 
-            // imageBrowserBTN
-            // 
-            this.imageBrowserBTN.Location = new System.Drawing.Point(79, 287);
-            this.imageBrowserBTN.Name = "imageBrowserBTN";
-            this.imageBrowserBTN.Size = new System.Drawing.Size(86, 23);
-            this.imageBrowserBTN.TabIndex = 34;
-            this.imageBrowserBTN.Text = "Browse Image";
-            this.imageBrowserBTN.UseVisualStyleBackColor = true;
-            this.imageBrowserBTN.Visible = false;
-            this.imageBrowserBTN.Click += new System.EventHandler(this.imagesBrowserBTN_Click);
+            //this.btnRemoveEmp.Click += new System.EventHandler(this.btnRemoveEmp_Click);
             // 
             // empEditSave
             // 
@@ -307,86 +267,7 @@
             this.empEditSave.TabIndex = 32;
             this.empEditSave.Text = "Edit";
             this.empEditSave.UseVisualStyleBackColor = true;
-            this.empEditSave.Click += new System.EventHandler(this.empEditSave_Click);
-            // 
-            // countryTextBox
-            // 
-            this.countryTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "Country", true));
-            this.countryTextBox.Location = new System.Drawing.Point(303, 235);
-            this.countryTextBox.Name = "countryTextBox";
-            this.countryTextBox.ReadOnly = true;
-            this.countryTextBox.Size = new System.Drawing.Size(100, 20);
-            this.countryTextBox.TabIndex = 31;
-            // 
-            // employeesInfoBindingSource
-            // 
-            // 
-            // aQCManagerDataSet
-            // 
-            // 
-            // cityTextBox
-            // 
-            this.cityTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "City", true));
-            this.cityTextBox.Location = new System.Drawing.Point(303, 209);
-            this.cityTextBox.Name = "cityTextBox";
-            this.cityTextBox.ReadOnly = true;
-            this.cityTextBox.Size = new System.Drawing.Size(100, 20);
-            this.cityTextBox.TabIndex = 29;
-            // 
-            // dOBTextBox
-            // 
-            this.dOBTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "DOB", true));
-            this.dOBTextBox.Location = new System.Drawing.Point(303, 183);
-            this.dOBTextBox.Name = "dOBTextBox";
-            this.dOBTextBox.ReadOnly = true;
-            this.dOBTextBox.Size = new System.Drawing.Size(100, 20);
-            this.dOBTextBox.TabIndex = 27;
-            // 
-            // fatherNameTextBox
-            // 
-            this.fatherNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "FatherName", true));
-            this.fatherNameTextBox.Location = new System.Drawing.Point(303, 133);
-            this.fatherNameTextBox.Name = "fatherNameTextBox";
-            this.fatherNameTextBox.ReadOnly = true;
-            this.fatherNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.fatherNameTextBox.TabIndex = 25;
-            // 
-            // lastNameTextBox
-            // 
-            this.lastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "LastName", true));
-            this.lastNameTextBox.Location = new System.Drawing.Point(303, 107);
-            this.lastNameTextBox.Name = "lastNameTextBox";
-            this.lastNameTextBox.ReadOnly = true;
-            this.lastNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.lastNameTextBox.TabIndex = 23;
-            // 
-            // firstNameTextBox
-            // 
-            this.firstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "FirstName", true));
-            this.firstNameTextBox.Location = new System.Drawing.Point(303, 81);
-            this.firstNameTextBox.Name = "firstNameTextBox";
-            this.firstNameTextBox.ReadOnly = true;
-            this.firstNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.firstNameTextBox.TabIndex = 21;
-            // 
-            // testingLabel
-            // 
-            this.testingLabel.AutoSize = true;
-            this.testingLabel.Location = new System.Drawing.Point(6, 382);
-            this.testingLabel.Name = "testingLabel";
-            this.testingLabel.Size = new System.Drawing.Size(71, 13);
-            this.testingLabel.TabIndex = 20;
-            this.testingLabel.Text = "Testing Labal";
-            // 
-            // iDTextBox
-            // 
-            this.iDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "ID", true));
-            this.iDTextBox.Location = new System.Drawing.Point(79, 55);
-            this.iDTextBox.Name = "iDTextBox";
-            this.iDTextBox.Size = new System.Drawing.Size(46, 20);
-            this.iDTextBox.TabIndex = 19;
-            this.iDTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.iDTextBox_KeyDown);
-            this.iDTextBox.Leave += new System.EventHandler(this.iDTextBox_KeyDown);
+            //this.empEditSave.Click += new System.EventHandler(this.empEditSave_Click);
             // 
             // btn_Next
             // 
@@ -427,16 +308,6 @@
             this.btnEmpAddNew.Text = "Add New";
             this.btnEmpAddNew.UseVisualStyleBackColor = true;
             this.btnEmpAddNew.Click += new System.EventHandler(this.btnEmpAddNew_Click);
-            // 
-            // imageTextBox
-            // 
-            this.imageTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.imageTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesInfoBindingSource, "Image", true));
-            this.imageTextBox.ForeColor = System.Drawing.Color.Transparent;
-            this.imageTextBox.Location = new System.Drawing.Point(105, 372);
-            this.imageTextBox.Name = "imageTextBox";
-            this.imageTextBox.Size = new System.Drawing.Size(100, 13);
-            this.imageTextBox.TabIndex = 33;
             // 
             // wps
             // 
@@ -594,7 +465,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(36, 22);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -640,30 +511,7 @@
             this.employeesInfoBindingNavigator.TabIndex = 2;
             this.employeesInfoBindingNavigator.Text = "bindingNavigator1";
             this.employeesInfoBindingNavigator.Visible = false;
-            this.employeesInfoBindingNavigator.RefreshItems += new System.EventHandler(this.employeesInfoBindingNavigator_RefreshItems);
-            // 
-            // employeesInfoTableAdapter
-            // 
-            // 
-            // tableAdapterManager
-            // 
-           // 
-            // aboutSbtn
-            // 
-            this.aboutSbtn.BackColor = System.Drawing.Color.Transparent;
-            this.aboutSbtn.BackgroundImage = global::AQC_Manager.Properties.Resources._1434683082_about;
-            this.aboutSbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.aboutSbtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.aboutSbtn.FlatAppearance.BorderSize = 0;
-            this.aboutSbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.aboutSbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.aboutSbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.aboutSbtn.Location = new System.Drawing.Point(3, 368);
-            this.aboutSbtn.Name = "aboutSbtn";
-            this.aboutSbtn.Size = new System.Drawing.Size(29, 24);
-            this.aboutSbtn.TabIndex = 3;
-            this.aboutSbtn.UseVisualStyleBackColor = false;
-            this.aboutSbtn.Click += new System.EventHandler(this.aboutSbtn_Click);
+           // this.employeesInfoBindingNavigator.RefreshItems += new System.EventHandler(this.employeesInfoBindingNavigator_RefreshItems);
             // 
             // bindingNavigatorAddNewItem
             // 
@@ -725,7 +573,8 @@
             this.employeesInfoBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("employeesInfoBindingNavigatorSaveItem.Image")));
             this.employeesInfoBindingNavigatorSaveItem.Name = "employeesInfoBindingNavigatorSaveItem";
             this.employeesInfoBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
-            this.employeesInfoBindingNavigatorSaveItem.Text = "Save Data";            // 
+            this.employeesInfoBindingNavigatorSaveItem.Text = "Save Data";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Enabled = false;
@@ -737,79 +586,6 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.WaitOnLoad = true;
-            // 
-            // btnCompany
-            // 
-            this.btnCompany.BackgroundImage = global::AQC_Manager.Properties.Resources._1433180300_factory;
-            this.btnCompany.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCompany.FlatAppearance.BorderSize = 0;
-            this.btnCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCompany.Location = new System.Drawing.Point(111, 45);
-            this.btnCompany.Name = "btnCompany";
-            this.btnCompany.Size = new System.Drawing.Size(65, 66);
-            this.btnCompany.TabIndex = 0;
-            this.buttonInfo.SetToolTip(this.btnCompany, "Company Informations");
-            this.btnCompany.UseVisualStyleBackColor = false;
-            this.btnCompany.Click += new System.EventHandler(this.btnCompany_Click);
-            // 
-            // btnWPS
-            // 
-            this.btnWPS.BackgroundImage = global::AQC_Manager.Properties.Resources._1432639004_Salary;
-            this.btnWPS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnWPS.FlatAppearance.BorderSize = 0;
-            this.btnWPS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWPS.Location = new System.Drawing.Point(16, 181);
-            this.btnWPS.Name = "btnWPS";
-            this.btnWPS.Size = new System.Drawing.Size(75, 75);
-            this.btnWPS.TabIndex = 0;
-            this.buttonInfo.SetToolTip(this.btnWPS, "\"WPS\"");
-            this.btnWPS.UseVisualStyleBackColor = true;
-            this.btnWPS.Click += new System.EventHandler(this.btnWPS_Click);
-            // 
-            // btnExpiry
-            // 
-            this.btnExpiry.BackColor = System.Drawing.Color.Transparent;
-            this.btnExpiry.BackgroundImage = global::AQC_Manager.Properties.Resources.config_date;
-            this.btnExpiry.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnExpiry.FlatAppearance.BorderSize = 0;
-            this.btnExpiry.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExpiry.Location = new System.Drawing.Point(191, 36);
-            this.btnExpiry.Name = "btnExpiry";
-            this.btnExpiry.Size = new System.Drawing.Size(75, 75);
-            this.btnExpiry.TabIndex = 0;
-            this.btnExpiry.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnExpiry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnExpiry.UseMnemonic = false;
-            this.btnExpiry.UseVisualStyleBackColor = true;
-            this.btnExpiry.Click += new System.EventHandler(this.btnExpiry_Click);
-            // 
-            // btnEmloyees
-            // 
-            this.btnEmloyees.BackColor = System.Drawing.Color.Transparent;
-            this.btnEmloyees.BackgroundImage = global::AQC_Manager.Properties.Resources._1432580807_free_17;
-            this.btnEmloyees.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnEmloyees.FlatAppearance.BorderSize = 0;
-            this.btnEmloyees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmloyees.Location = new System.Drawing.Point(16, 41);
-            this.btnEmloyees.Name = "btnEmloyees";
-            this.btnEmloyees.Size = new System.Drawing.Size(75, 75);
-            this.btnEmloyees.TabIndex = 0;
-            this.btnEmloyees.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnEmloyees.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonInfo.SetToolTip(this.btnEmloyees, "\"View Emplyees Details\"");
-            this.btnEmloyees.UseMnemonic = false;
-            this.btnEmloyees.UseVisualStyleBackColor = true;
-            this.btnEmloyees.Click += new System.EventHandler(this.btnEmloyees_Click);
-            // 
-            // employeePic
-            // 
-            this.employeePic.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.employeePic.Location = new System.Drawing.Point(55, 81);
-            this.employeePic.Name = "employeePic";
-            this.employeePic.Size = new System.Drawing.Size(150, 200);
-            this.employeePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.employeePic.TabIndex = 17;
-            this.employeePic.TabStop = false;
             // 
             // mainWindow
             // 
@@ -828,14 +604,13 @@
             this.mainTabCtrl.ResumeLayout(false);
             this.mainPage.ResumeLayout(false);
             this.emloyees.ResumeLayout(false);
-            this.emloyees.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingSource)).EndInit();
             this.wps.ResumeLayout(false);
             this.expiries.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.employeesInfoBindingNavigator)).EndInit();
             this.employeesInfoBindingNavigator.ResumeLayout(false);
             this.employeesInfoBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeePic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -870,10 +645,8 @@
         private System.Windows.Forms.Button btnEmpAddNew;
         private System.Windows.Forms.Button testing;
         private System.Windows.Forms.BindingSource employeesInfoBindingSource;
-        private System.Windows.Forms.PictureBox employeePic;
         private System.Windows.Forms.Button btn_Next;
         private System.Windows.Forms.Button btn_Prev;
-        private System.Windows.Forms.TextBox iDTextBox;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
@@ -888,16 +661,7 @@
         private System.Windows.Forms.ToolStripButton employeesInfoBindingNavigatorSaveItem;
         private System.Windows.Forms.BindingNavigator employeesInfoBindingNavigator;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label testingLabel;
-        private System.Windows.Forms.TextBox countryTextBox;
-        private System.Windows.Forms.TextBox cityTextBox;
-        private System.Windows.Forms.TextBox dOBTextBox;
-        private System.Windows.Forms.TextBox fatherNameTextBox;
-        private System.Windows.Forms.TextBox lastNameTextBox;
-        private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.Button empEditSave;
-        private System.Windows.Forms.Button imageBrowserBTN;
-        private System.Windows.Forms.TextBox imageTextBox;
         private System.Windows.Forms.Button btnRemoveEmp;
         private System.Windows.Forms.Button aboutSbtn;
         private System.Windows.Forms.PictureBox pictureBox1;

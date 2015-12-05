@@ -102,7 +102,7 @@ namespace AQC_Manager
             listEmployee EmployeeFormL = new listEmployee();
             EmployeeFormL.Show();
         }
-
+/*
         private void iDTextBox_Enter(object sender, EventArgs e)
         {
             //employeesInfoBindingSource.Position = Convert.ToInt16(iDTextBox.Text);
@@ -208,7 +208,7 @@ namespace AQC_Manager
                 System.IO.File.Copy(OpenDialogBu.FileName, newDestination, true);
                 imageTextBox.Text = (newDestination);
                 employeePic.ImageLocation = imageTextBox.Text;//Do what you want here
-              */ 
+              *//* 
             } 
         }
 
@@ -222,7 +222,7 @@ namespace AQC_Manager
             }
 
             
-        }
+        }*/
 
         private void aboutSbtn_Click(object sender, EventArgs e)
         {

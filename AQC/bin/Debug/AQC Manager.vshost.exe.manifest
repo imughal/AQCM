@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AQC Manager.exe" size="1210880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AQC Manager.exe" size="1206272">
       <assemblyIdentity name="AQC Manager" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6kIJIGlh1dhD4+Qd06kzGQxCulQ=</dsig:DigestValue>
+        <dsig:DigestValue>GeO4WDWW7AJRDfML/JEJNYvS+2I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,13 +62,13 @@
       <dsig:DigestValue>78/NEedEMnFBW0qpekLQ1/7Kb/o=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="AQC Manager.pdb" size="77312">
+  <file name="AQC Manager.pdb" size="60928">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>jlWtCMLvQ9U9rWHWH+m02i65Bsk=</dsig:DigestValue>
+      <dsig:DigestValue>gnWmdG6ircnsoB/QsChor9CtnSw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\1432580807_free-17.png" size="5922">
